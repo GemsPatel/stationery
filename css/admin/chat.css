@@ -1,0 +1,73 @@
+.left_content_chat{ width:60%; float:left;}
+.right_content_chat{ width:35%; float:right; margin-left:5%;}
+
+@font-face {
+	font-family:'fontello';
+	src:url('../../font/fontello.eot?14105026#iefix') format('embedded-opentype'), url('../../font/fontello.ttf?14105026') format('truetype');
+}
+[class^="icon-"]:before, [class*=" icon-"]:before{ font-family: "fontello"; font-style: normal; margin-right: .3em;}
+.icon-chat:before { content: '\e83c'; }
+.icon-comment:before { content: '\e83b'; }
+.icon-user:before { content: '\e80a'; }
+.icon-users:before { content: '\e80b';}
+.chat-pending{ color: #99AC11;}
+.chat-unread { color: #c60f13;}
+.htabs a{ background:none; }
+.content a{ color: #86B5CC !important;}
+ul.no-bullet { list-style: none; padding:0px; margin:0px; }
+ul.no-bullet li{ line-height:25px;}
+ul.no-bullet a{ text-decoration:none !important;}
+.icon-info:before { content: '\e81e';}
+.icon-popup:before { content: '\e86b';}
+hr { border: solid #dddddd;border-width: 1px 0 0;}
+.icon-sound:before {content: '\e860';}
+.top-bar-section i{cursor: pointer;font-size: 20px; margin:5px;}
+.top-bar-section .icon-user{ color: #a3ff60;}
+.top-bar-section .icon-user.disabled{ color: #ffb3b8;}
+.icon-cancel:before {content: '\e813'; margin-top: -9px; position: absolute;}
+.columns{ width:70%;}
+.msgBlock{border: 1px solid #CCCCCC; height:200px; margin-bottom: 10px; overflow:auto;}
+div.message-row { padding: 5px;}
+div.response {background-color: #F5F5F5;}
+.msg-date {float: right;}
+.usr-tit {font-weight: bold;}
+.columns textarea{ width:99%; height: 4em; margin-bottom:6px;}
+.send-row{ float:left; width:20%;}
+.select-row{ float:left; width:35%;}
+select{ padding:6px;}
+.canned-row{ float:right;width:44%;}
+.icon-pencil:before{content: '\e836';}
+.icon-mail:before {content: '\e805';}
+.icon-stop:before {content: '\e813';}
+.icon-transfer:before {content: "\e80a";}
+.icon-mail.button{ border-radius:0px;}
+.button {
+	border-style: solid;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 18px 5px 20px;
+	font-size: 1em;
+	background-color: #2ba6cb;
+	border-color: #2284a1;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	font-style:normal;
+	line-height:1em;
+}
+.icon-pencil.button{border-bottom-left-radius: 1000px;	border-top-left-radius: 1000px;}
+.icon-mail.button{}
+.icon-stop.button{}
+.icon-transfer.button{border-top-right-radius: 1000px;border-bottom-right-radius: 1000px;}
+.buttons .text-link a{ font-weight:bold; text-decoration:none; margin:5px; font-size:14px;}
+
+.fleft{ float:left;}
+.fright{ float:right;}
+
+.columns-1 { width: 55%;}
+.columns-2 { width: 20%;}
+.columns-3 { width: 20%;}
+#online-users-list .list{ margin-top:5px;}
+.typing { text-align:center; font-size:10px; color:#666; margin-left:10px; }
+.hide{ display:none; }
+#my-button { display: none; } 
